@@ -175,7 +175,7 @@ class TelecomLotter:
 def main(phone, password):
     apiType = 1
     try:        
-        url = "http://gh.301.ee/https://github.com/hakdwhj/hakdwhj/blob/main/telecomLiveInfo.json""
+        url = "http://gh.301.ee/https://github.com/hakdwhj/hakdwhj/blob/main/telecomLiveInfo.json"
         data = get(url, timeout=5).json()
     except:
         url = "https://xbk.189.cn/xbkapi/lteration/index/recommend/anchorRecommend?provinceCode=01"
